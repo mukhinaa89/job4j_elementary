@@ -17,7 +17,7 @@ public class Fit {
 
         height = 170; //переопределение значения переменной рост для женщины;
         double woman = Fit.womanWeight(height); ////вызов метода womanWeight с аргументом height;
-        System.out.println("Man 170 is " + woman); //вывод на консоль результат вычисления;
+        System.out.println("Woman 170 is " + woman); //вывод на консоль результат вычисления;
     }
 
 }
