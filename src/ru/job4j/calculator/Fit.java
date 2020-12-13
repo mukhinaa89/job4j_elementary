@@ -11,9 +11,9 @@ public class Fit {
     }
 
     public static void main(String[] args) {
-        short height = 187; //указание значения переменной рост для мужчины;
+        short height = 180; //указание значения переменной рост для мужчины;
         double man = Fit.manWeight(height); //вызов метода manWeight с аргументом height;
-        System.out.println("Man 187 is " + man); //вывод на консоль результат вычисления;
+        System.out.println("Man 180 is " + man); //вывод на консоль результат вычисления;
 
         height = 170; //переопределение значения переменной рост для женщины;
         double woman = Fit.womanWeight(height); ////вызов метода womanWeight с аргументом height;
