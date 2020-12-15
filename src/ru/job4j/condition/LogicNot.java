@@ -3,9 +3,8 @@ package ru.job4j.condition;
 public class LogicNot {
 
     public boolean isEven(int num) {
-        boolean num1 = (num % 2 == 0);
-        System.out.println(num1);
-        return  num1;
+        System.out.println(num % 2 == 0);
+        return  num % 2 == 0;
     }
 
     public boolean isPositive(int num) {
