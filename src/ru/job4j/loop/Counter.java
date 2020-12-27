@@ -20,17 +20,6 @@ public class Counter {
     }
 
     public static void main(String[] args) {
-        System.out.println(sum(0, 10));
-        System.out.println(sum(3, 8));
-        System.out.println(sum(1, 1));
-        System.out.println(sum(-2, -1));
-        System.out.println(sum(-1, 2));
-
-        System.out.println(sumByEven(0, 10));
-        System.out.println(sumByEven(3, 8));
-        System.out.println(sumByEven(1, 1));
-        System.out.println(sumByEven(-2, -1));
-        System.out.println(sumByEven(-1, 2));
 
     }
 }
