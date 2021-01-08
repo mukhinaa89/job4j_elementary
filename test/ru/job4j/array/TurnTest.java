@@ -19,6 +19,5 @@ public class TurnTest {
         int[] result = Turn.back(input);
         int[] expect = new int[] {2, 0, 6, 1, 4};
         assertThat(result, is(expect));
-        //напишите здесь тест, проверяющий переворот массива с нечётным числом элементов, например {1, 2, 3, 4, 5}.
     }
 }
