@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class LogicNot {
-
     public boolean isEven(int num) {
         System.out.println(num % 2 == 0);
         return  num % 2 == 0;

@@ -1,7 +1,6 @@
 package ru.job4j.converter;
 
 public class Converter {
-
     public static int rubleToEuro(int value) {
         return value / 70;
     }
@@ -16,7 +15,6 @@ public class Converter {
         int out = Converter.rubleToEuro(in);
         boolean passed = expected == out;
         System.out.println("140 rubles are 2 euros. Test result : " + passed);
-
         in = 180;
         expected = 3;
         out = Converter.rubleToDollar(in);
